@@ -1,1 +1,14 @@
 /* Mobile View */
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/* html selectors */
+h1{
+    font-family: 'Lora', serif;
+}
+
+/* class selectors */
+.heading{
+
+}
+
+/* id selectors */
