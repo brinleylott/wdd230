@@ -20,7 +20,6 @@ img{
     grid-column: 1/ span 2;
     grid-row: 1/2;
     max-width: 75px;
-    max-height: auto;
 }
 h1{
     grid-column: 2/ 3;
