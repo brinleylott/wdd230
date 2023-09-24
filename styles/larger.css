@@ -2,7 +2,18 @@
 @media screen and (min-width: 480px) {
     nav {
         display: flex;
-        
     }
-    
+    .boxes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    #activities{
+        grid-column: 1/4;
+    }
+    #information{
+        grid-column: 4/5;
+    }
+    #weather{
+        margin-top: 50px;
+    }
 }
