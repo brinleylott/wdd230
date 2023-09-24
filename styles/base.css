@@ -31,6 +31,7 @@ h1{
 nav{
     background-color: rgb(116, 103, 103);
     align-content: center;
+    text-align: center;
 }
 nav a{
     display: block;
