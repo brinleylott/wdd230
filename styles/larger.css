@@ -1,8 +1,5 @@
 /* Large view */
 @media screen and (min-width: 480px) {
-    nav {
-        display: flex;
-    }
     .boxes {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -16,4 +13,15 @@
     #weather{
         margin-top: 50px;
     }
+    #menu {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+    }
+    .navigation {
+        display: flex;
+        margin-top: 0;
+    }
+
 }
