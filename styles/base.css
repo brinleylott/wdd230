@@ -5,6 +5,9 @@
 h1, h2, h3, ul{
     font-family: 'Lora', serif;
 }
+main {
+    padding-bottom: 10px;
+}
 body{
     margin: 0;
 }
@@ -52,16 +55,20 @@ li{
 }
 footer{
     text-align: center;
-    background-color: rgb(116, 103, 103);
-    color: white;
+    background-color: rgb(202, 183, 183);
+    color: black;
     padding: 20px;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 0px;
+    padding-top: 10px;
 }
 /* class selectors */
 .wdd230{
     text-align: center;
     text-decoration: underline;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px;
 }
 .learning{
     background-color: rgb(116, 103, 103);
@@ -84,7 +91,10 @@ footer{
     border: solid 2px rgb(116, 103, 103);
     text-align: center;
     margin: 10px;
+    margin-bottom: 0;
 }
+
+/* Hamburger menu */
 #menu {
     display: block;
 	font-size: 1.5rem;
@@ -124,13 +134,16 @@ footer{
 /* Dark Mode */
 
 .darkMode {
-    background-color: black;
-    margin-top: 0;
-    margin-bottom: 0;
-    
-
+    background-color: rgb(63, 58, 58);
+    color: white;
 }
 
 .darkMode li a {
     color: white;
 }
+.darkButton {
+    padding: 16px;
+    align-items: center;
+    align-content: center;
+}
+
