@@ -119,3 +119,18 @@ footer{
 .open li a {
 	display: block;
 }
+
+
+/* Dark Mode */
+
+.darkMode {
+    background-color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+
+}
+
+.darkMode li a {
+    color: white;
+}
