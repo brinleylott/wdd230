@@ -1,12 +1,76 @@
+/* Header */
+header h2{
+    background-color: #081F5C;
+    margin: 0;
+    padding: 20px;
+    color: #F2F0DE;
+    text-align: center;
+}
+
+/* nav */
+nav{
+    background-color: #D0E3FF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #081F5C;
+}
 li {
     list-style: none;
+    padding: 10px;
 }
 
 li a {
     text-decoration: none;
+    color: #081F5C;
 }
 
 ul {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
+
+/* Hero */
+body {
+    margin: 0;
+}
+
+/* The hero image */
+.hero {
+  background-color: antiquewhite;
+  background-image: url("../images/hero_new.jpg");
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;;
+  margin-top: 0;
+}
+.hero-text {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #F2F0DE;
+    vertical-align: text-top;
+}
+
+
+
+/* Event Slide Show */
+.mySlides{
+    display: none;
+    max-height: auto;
+    max-width: 75%;
+    padding: 20px;
+}
+.event_images {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+

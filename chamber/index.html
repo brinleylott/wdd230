@@ -7,13 +7,16 @@
     <title>Chamber of Commerce</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon (2).ico" />
     <meta propery="og: url" content="https://brinleylott.github.io/wdd230/chamber" />
-    <meta property="og: title" content="WDD 230 Portfolio" />
+    <meta property="og: title" content="Clovis Chamber of Commerce" />
     <meta property="og: type" content="Article" />
     <meta property="og: image" content="images/optimized-image.jpg" />
 </head>
 <body>
-    <header></header>
+    <header>
+        <h2>Clovis Chamber of Commerce</h2>
+    </header>
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
@@ -23,8 +26,48 @@
         </ul>
     </nav>
     <main>
-        <h1>Chamber of Commerce</h1>
+        <div class="hero">
+            <div class="hero-text">
+              <h1>Welcome to Clovis Chamber of Commerce!</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas praesentium aut deserunt architecto minus. Veritatis asperiores architecto officiis omnis sed voluptas voluptatem possimus, eligendi sit vitae, expedita, ducimus voluptate autem.</p>
+              <button>Sign Up</button>
+            </div>
+        </div>
+
+        <h2 class="evens_title">Current Events</h2>
+        <section class="current_events">
+            <section class="event-images">
+                <img class="mySlides" src="images/golf.jpg">
+                <img class="mySlides" src="images/seminar.jpg">
+                <img class="mySlides" src="images/opening_social.jpeg">
+            </section>
+            <section class="events_button">
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </section>
+            <button class="tickets">Get Tickets Now</button>
+        </section>
+
+
+        <section class="shout-out">
+            <h2>Our Sponsors</h2>
+            <section class="company-card">
+                <h3>Crumble Cookies</h3>
+                <img src="#" alt="#">
+            </section>
+        </section>
+        <section class="weater">
+            <h3>Weather</h3>
+            <section>
+                <menu class="list-info">
+                    <li><a href="#">Weather</a></li>
+                    <li><a href="#">76 Degrees F </a></li>
+                    <li><a href="#">Warm</a></li>
+                </menu>
+            </section>
+        </section>        
     </main>
     <footer></footer>
+    <script src="scripts/events.js"></script>
 </body>
 </html>
