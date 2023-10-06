@@ -42,8 +42,8 @@ body {
   background-color: antiquewhite;
   background-image: url("../images/hero_new.jpg");
   background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;;
+  padding-top: 100px;
+  padding-bottom: 275px;;
   margin-top: 0;
 }
 .hero-text {
@@ -52,9 +52,10 @@ body {
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
-    color: #F2F0DE;
-    vertical-align: text-top;
+    color: #081F5C;
+    text-align: center;
 }
+
 
 
 
@@ -63,10 +64,19 @@ body {
     display: none;
     max-height: auto;
     max-width: 75%;
-    padding: 20px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
 }
 .event_images {
     display: flex;
+    justify-content: center;
+}
+.events_button {
+    display: flex;
+    justify-content: center;
+}
+.current_events {
     justify-content: center;
 }
 

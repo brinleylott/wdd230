@@ -3,4 +3,8 @@
         flex-direction: row;
         justify-content: space-evenly;
     }
+    .hero {
+        padding-top: 150px;
+        padding-bottom: 250px;;
+    }
 }
