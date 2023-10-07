@@ -45,6 +45,7 @@ body {
   padding-top: 100px;
   padding-bottom: 275px;;
   margin-top: 0;
+  margin-bottom: 0;
 }
 .hero-text {
     max-width: 960px;
@@ -77,10 +78,62 @@ body {
     justify-content: center;
 }
 .current_events {
-    justify-content: center;
+    display: block;
+    justify-content: center;  
+}
+.events_title {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+.ticket_button {
+    text-align: center;
+    padding-top: 10px;
 }
 
+/* Sponsor */
+.shout-out {
+    text-align: center;
+    margin: 0;
+}
+.our-sponsors {
+     margin: 0;
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+.sponsor-img {
+    max-width: 75%;
+    padding: 10px;
+    background-color: #081F5C;
+}
+.george {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
 
+/* weather */
+.weather {
+    border: solid 2px #081F5C;
+    margin: 10px;
+    text-align: center;
+}
+.weather h3 {
+    background-color: #081F5C;
+    color: #F2F0DE;
+    margin: 0;
+    padding: 5px;
+}
+.list-info {
+    margin-right: 10%;
+}
+
+/* Footer */
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #081F5C;
+    margin: 0;
+}
 
 
 
