@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+/* main {
+    display: grid;
+    gap: 1em;
+    justify-content: center;
+} */
+
+main img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 1em;
+}
