@@ -84,6 +84,41 @@ footer{
     color: rgb(116, 103, 103);
     text-decoration: none;
 }
+.navigation{
+    margin-bottom: 0;
+}
+.lesson {
+    text-decoration: none;
+    color: rgb(116, 103, 103);
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+.lesson a {
+    font-weight: bolder;
+}
+.hero {
+    background-color: antiquewhite;
+    background-image: url('../images/rexburg_idaho_temple.webp');
+    background-size: cover;
+    height: 300px;
+    margin: 0;
+}
+.hero_text p{
+    position: absolute;
+	top: 150px;
+	left: 30px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+	/* Buenas */
+}
+.map {
+    display: flex;
+    justify-content: center;
+    padding: 10px
+}
 
 
 /* id selectors */
@@ -146,4 +181,5 @@ footer{
     align-items: center;
     align-content: center;
 }
+
 

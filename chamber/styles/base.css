@@ -67,28 +67,17 @@ body {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 1rem;
+    align-content: center;
+}
+.current_events {
+    text-align: center;
+    padding: 10px;
 }
 .event_images {
     display: flex;
     justify-content: center;
 }
-.events_button {
-    display: flex;
-    justify-content: center;
-}
-.current_events {
-    display: block;
-    justify-content: center;  
-}
-.events_title {
-    margin-top: 0;
-    text-align: center;
-    padding-top: 20px;
-}
-.ticket_button {
-    text-align: center;
-    padding-top: 10px;
-}
+
 
 /* Sponsor */
 .shout-out {
@@ -134,5 +123,93 @@ footer {
     margin: 0;
 }
 
+/* Discover Page */
+.content {
+    display: flex;
+    flex-direction: column; /* Organize items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center;
+}
+
+/* Sidebar */
+
+.calendar {
+    text-align: center;
+    background-color: #F2F0DE;
+    width: 325px;
+    padding: 20px;
+    margin: 20px;
+    padding-left: 10px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.274);
+}
+
+.todays_events {
+    text-align: center;
+    background-color: #F2F0DE;
+    width: 325px;
+    height: 170px;
+    margin: 20px;
+    padding: 20px;
+    padding-left: 10px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.274);
+    color: #081F5C;
+
+}
+.todays_events ul {
+    display: block;
+}
+
+.demographics {
+    text-align: center;
+    background-color: #F2F0DE;
+    width: 325px;
+    padding: 20px;
+    padding-left: 10px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.274);
+    color: #081F5C;
+
+}
+
+/* main */
+
+.hospital {
+    background-color: #D0E3FF;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    width: 325px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.274);
 
 
+}
+.hospital img {
+    width: 300px;
+    height: 250;
+}
+
+.balloons {
+    background-color: #D0E3FF;
+    width: 325px;
+    padding-top: 32px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.274);
+
+}
+
+.kids_club {
+    background-color: #D0E3FF;
+    width: 325px;
+    padding-top: 32px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.274);
+
+}
