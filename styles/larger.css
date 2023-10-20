@@ -26,8 +26,8 @@
     .hero {
     background-color: antiquewhite;
     background-image: url('../images/rexburg-temple-large.jpeg');
-    background-size: cover;
-    height: 500px;
+    /* background-size: contain; */
+    /* height: 500px; */
     margin: 0;
     }
     .hero_text {

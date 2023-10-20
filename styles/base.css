@@ -99,13 +99,14 @@ footer{
 .hero {
     background-color: antiquewhite;
     background-image: url('../images/rexburg_idaho_temple.webp');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 300px;
     margin: 0;
 }
 .hero_text p{
-    position: absolute;
-	top: 150px;
+    position: relative;
+	top: 50px;
 	left: 30px;
 	background: radial-gradient(#fff, #4D5B97);
 	border: 1px solid rgba(0,0,0,.75);
