@@ -206,13 +206,11 @@ footer {
     padding-bottom: 10px;
     border-radius: 10px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
     box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.274);
-
 }
 
-#welcome {
+.welcomeC {
     text-align: center;
     background-color: #F2F0DE;
     width: 325px;
