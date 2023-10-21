@@ -96,10 +96,13 @@ footer{
 .lesson a {
     font-weight: bolder;
 }
+
+/* hero and map  */
+
 .hero {
     background-color: antiquewhite;
     background-image: url('../images/rexburg_idaho_temple.webp');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
     margin: 0;
@@ -108,11 +111,13 @@ footer{
     position: relative;
 	top: 50px;
 	left: 30px;
+    width: 100px;
 	background: radial-gradient(#fff, #4D5B97);
 	border: 1px solid rgba(0,0,0,.75);
 	padding: 1.5rem;
 	box-shadow: 0 0 3rem #fff;
 	opacity: 0.75;
+    margin-top: 0;
 	/* Buenas */
 }
 .map {
