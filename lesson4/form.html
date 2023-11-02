@@ -4,27 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="" />
+    <meta
+      name="description"
+      content="This is a home page for my WDD 230 class"/>
+    <meta name="author" content="Brinley George" />
+    <title>Brinley George - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="images/favicon.ico" />
+    <meta property="og: url" content="https://brinleylott.github.io/wdd230/" />
+    <meta property="og: title" content="WDD 230 Portfolio" />
+    <meta property="og: type" content="Article" />
+    <meta property="og: image" content="images/optimized-image.jpg" />
   </head>
   <body>
     <header>
       <div class="image-container">
-        <img
-          src="images/brinley.webp"
-          alt="Brinley George"
-          loading="lazy"
-          width="75"
-          height="100"
-        />
+        <img src="../images/brinley.webp" alt="Brinley George" loading="lazy" width="75" height="100"/>
       </div>
       <h1 class="title">Brinley George</h1>
     </header>
     <nav>
       <button id="menu"></button>
       <ul class="navigation">
-        <li><a href="#">Home</a></li>
-        <li><a href="chamber">Chamber</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../chamber/">Chamber</a></li>
         <li>
           <a
             href="https://brinleylott.github.io/wdd230/lesson1/chamber-site-plan.html"
@@ -36,43 +39,51 @@
       </ul>
     </nav>
     <main>
-      <h1>Contact Us</h1>
+      <h2 class="title">Contact Us</h2>
       <form action="get" action="thanks.html"></form>
       <fieldset>
-        <label
-          >Username<input type="text" name="username" id="username" required
-        /></label>
-        <label
-          >Password<input
+        <div class="fill">
+          <label>Username:</label>
+          <input type="text" name="username" id="username" required/>
+        </div>
+        
+        <div class="fill">
+          <label>Password:</label>
+          <input
             type="password"
             name="password"
             pattern="[a-zA-Z0-9]{8}"
             id="password"
-            required
-        /></label>
-        <label
-          >Password Repeated<input
+            required/>
+        </div>
+        
+        <div class="fill">
+          <label>Password Repeated:</label>
+          <input
             type="password"
             name="password_repeat"
             id="password_repeat"
-            required
-        /></label>
-        <label
-          >Email<input
-            type="email"
-            name="email"
-            id="email"
-            pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
-            title="Please enter a valid email address"
-            required
-        /></label>
-        <div>
-          <label
-            >Page Rating
-            <input type="range" id="r" name="r" min="0" max="5" value="0" step="1" list="rangevalues"
-          /></label>
-          <datalist id="rangevalues">
-            <option value="0">0</option>
+            required/>
+        <div id="message"></div>
+        </div>
+        
+        <div class="fill">
+          <label>Email:</label>
+          <input 
+          type="email" 
+          name="email" 
+          id="email"
+          pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+          title="Please enter a valid email address"
+          required
+          />
+        </div>
+        
+        <div class="fill">
+           <label for="page-rating">Page Rating:</label>
+          <div id="range_value">0</div>
+          <input id="r" type="range" min="1" max="10" step="1" list="range_values">
+          <datalist id="range_values">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -85,8 +96,8 @@
             <option value="10">10</option>
           </datalist>
         </div>
-      </fieldset>
-      <button>Submit</button>
+     
+      <button id="submit">Submit</button>
     </main>
     <footer>
       <p>
@@ -95,6 +106,8 @@
       </p>
       <p><span id="last-modified"></span></p>
     </footer>
-    <script src="scripts/getDates.js"></script>
+    <script src="scripts/form.js"></script>
+    <script src="../scripts/advnaced.js"></script>
   </body>
 </html>
+
