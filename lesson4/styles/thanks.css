@@ -43,55 +43,20 @@ footer{
     margin-bottom: 0px;
     padding-top: 10px;
 }
-input {
-    height: 38px;
-    width: 100%;
-    margin-top: 5px;
-}
-fieldset {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-}
-label {
-    display: block;
-}
-datalist {
-    width: 100%;
-    justify-content: space-between;
-    margin-left: 3px;
-}
-/* classes */
-.list li a , .list-info li a {
-    text-decoration: none;
-    color:rgb(116, 103, 103)
+main {
+    padding: 20px;
 }
 .navigation {
     margin: 0;
 }
-.title {
-    margin: 0;
+
+/* classes */
+.thanks {
     text-align: center;
-    padding-top: 10px;
-}
-.fill  {
-    padding: 10px;
+    padding: 15px;
+    outline: solid;
 }
 
-/* ID */
-#range_values {
-    display: flex;
-}
-#submit {
-    width: 100px;
-    padding: 10px;
-    background-color: rgb(202, 183, 183);
-    border: none;
-    border-radius: 15px;
-}
-#sub {
-    text-align: center;
-}
 /* Hamburger menu */
 #menu {
     display: block;

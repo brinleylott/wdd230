@@ -40,7 +40,7 @@
     </nav>
     <main>
       <h2 class="title">Contact Us</h2>
-      <form action="get" action="thanks.html"></form>
+      <form method="get" action="thanks.html">
       <fieldset>
         <div class="fill">
           <label>Username:</label>
@@ -52,7 +52,6 @@
           <input
             type="password"
             name="password"
-            pattern="[a-zA-Z0-9]{8}"
             id="password"
             required/>
         </div>
@@ -96,8 +95,11 @@
             <option value="10">10</option>
           </datalist>
         </div>
-     
-      <button id="submit">Submit</button>
+        </fieldset>
+        <div id="sub">
+          <input id="submit" type="submit" value="Submit">
+        </div>
+        
     </main>
     <footer>
       <p>
