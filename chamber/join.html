@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="icon" href="images/favicon (2).ico" />
+    <meta
+      propery="og: url"
+      content="https://brinleylott.github.io/wdd230/chamber"
+    />
+    <meta property="og: title" content="Clovis Chamber of Commerce" />
+    <meta property="og: type" content="Article" />
+    <meta property="og: image" content="images/optimized-image.jpg" />
+  </head>
+  <body>
+    <header>
+      <h2>Clovis Chamber of Commerce</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </nav>
+    <main class="join">
+      <div class="title">
+        <h2>Join Clovis Chamber of Commerce!</h2>
+      </div>
+      <form method="get" action="thanks.html">
+        <fieldset>
+          <div class="fill">
+            <label for="fname">First Name:</label>
+            <input type="text" name="first_name" id="fname" required />
+          </div>
+          <div class="fill">
+            <label for="lname">Last Name:</label>
+            <input type="text" name="last_name" id="lname" required />
+          </div>
+          <div class="fill">
+            <label for="position">Position or Title:</label>
+            <input
+              type="text"
+              name="position"
+              id="position"
+              pattern="[a-zA-Z\- ]{7,}$"
+            />
+          </div>
+          <div class="fill">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="youremail@gmail.com"
+              required
+            />
+          </div>
+          <div class="fill">
+            <label for="phone">Phone Number:</label>
+            <input type="telephone" name="telephone" id="phone" required />
+          </div>
+          <div class="fill">
+            <label for="business_name">Business/Organization Name:</label>
+            <input type="text" name="business" id="business_name" required/>
+          </div>
+          <div class="membership">
+            <div class="mem">Membership Level:</div>
+            <label for="membership"> <input type="radio" name="membership" value="NP" />NP Membership is for non profit organizations and there is no fee. </label>
+            <label for="membership"><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+            <label for="membership"><input type="radio" name="membership" value="bronze">Silver Membership</label>
+            <label for="membership"><input type="radio" name="membership" value="gold" />Gold Membership</label>
+          </div>
+          <div class="fill">
+            <label for="description"
+              >Description of business/organization:</label>
+              <input
+                type="text"
+                name="description"
+                id="description"/>
+          </div>
+          <div>
+            <label for="timestamp"></label>
+            <input type="hidden" name="timestamp" id="timestamp"
+            />
+          </div>
+          <div>
+            <input type="submit" value="Submit" />
+          </div>
+        </fieldset>
+      </form>
+      <div class="benefits_title">
+        <h3>Membership Level Benefits</h3>
+      </div>
+      
+      <div class="benefits">  
+        <h4>NP Membership (Non-Profit Organizations, No Fee):</h4>
+        <p>Access to networking events with other non-profit organizations.</p>
+        <p>Opportunity to participate in specialized training and workshops.</p>
+        <p>Listing in the chamber's directory to increase visibility among
+            community members.</p>
+        <p>Inclusion in the chamber's promotional materials for events and
+            activities.</p>
+        </div>
+       <div class="benefits">
+        <h4>Bronze Membership:</h4>
+        <p>Access to regular networking events to connect with other businesses
+            and potential clients.</p>
+        <p>Entry to educational seminars and workshops designed to enhance
+            business skills and knowledge.</p>
+            visibility.
+        <p>Use of the chamber's logo for marketing and promotional purposes.</p>
+          
+          <li>
+            Access to discounted rates for advertising in the chamber's
+            publications.
+          </li>
+          <li>Price: $250 per year.</li>
+        </ul>
+       </div>
+       <div class="benefits">
+        <h4>Silver Membership:</h4>
+        <ul>
+          <li>
+            Priority access to exclusive networking events with key business
+            leaders and decision-makers.
+          </li>
+          <li>
+            Access to advanced training and development programs for
+            professional growth.
+          </li>
+          <li>
+            Enhanced listing in the chamber's directory for increased visibility
+            and credibility.
+          </li>
+          <li>
+            Opportunity to sponsor specific chamber events, increasing brand
+            exposure and recognition.
+          </li>
+          <li>
+            Access to exclusive market data and research reports to stay ahead
+            of industry trends.
+          </li>
+          <li>Price: $500 per year.</li>
+        </ul>
+       </div> 
+       <div class="benefits">
+        <h4>Gold Membership:</h4>
+        <ul>
+          <li>
+            VIP access to high-profile networking events and industry-specific
+            conferences.
+          </li>
+          <li>
+            Personalized training and mentoring opportunities from experienced
+            industry experts.
+          </li>
+          <li>
+            Premier listing in the chamber's directory and promotional materials
+            for maximum exposure.
+          </li>
+          <li>
+            Exclusive sponsorship opportunities for major chamber events and
+            initiatives.
+          </li>
+          <li>
+            Access to specialized business consultations and advisory services
+            for strategic growth planning.
+          </li>
+          <li>
+            Priority consideration for leadership roles within the chamber and
+            its committees.
+          </li>
+          <li>Price: $1000 per year.</li>
+        </ul>
+       </div>
+    </main>
+    <footer></footer>
+    <script src="scripts/events.js"></script>
+  </body>
+</html>

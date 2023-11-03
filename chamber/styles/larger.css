@@ -53,4 +53,13 @@
   .kids_club {
     grid-row: 2/3;
   }
+
+/* form */
+  form {
+    width: 50%;
+  }
+  .benefits {
+    display: block;
+    width: 30%;
+  }
 }
