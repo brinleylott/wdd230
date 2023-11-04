@@ -56,10 +56,24 @@
 
 /* form */
   form {
-    width: 50%;
+    width: 627px;
   }
   .benefits {
     display: block;
-    width: 30%;
+    width: 300px;
+    height: 370px;
+    padding: 10px;
+  }
+  .all{
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-rows: 1fr 1frs; */
+  }
+  /* #gold {
+    grid-column: 3/4;
+    margin-top: 200px;
+  } */
+  .ben1 .ben2{
+    display: block;
   }
 }
