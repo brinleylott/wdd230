@@ -2,7 +2,7 @@
 header h2{
     background-color: #081F5C;
     margin: 0;
-    padding: 20px;
+    padding: 30px;
     color: #F2F0DE;
     text-align: center;
 }
@@ -10,8 +10,8 @@ header h2{
 /* nav */
 nav{
     background-color: #D0E3FF;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: #081F5C;
 }
 li {
@@ -22,6 +22,7 @@ li {
 li a {
     text-decoration: none;
     color: #081F5C;
+    padding: 10px;
 }
 
 ul {
@@ -31,6 +32,10 @@ ul {
     padding: 0;
     text-align: center;
 }
+
+/* nav li:hover {
+    background-color: #F2F0DE;
+} */
 
 /* Hero */
 body {
@@ -62,16 +67,17 @@ body {
 
 /* Event Slide Show */
 .mySlides{
-    display: none;
+    display: block;
     max-width: 75%;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 1rem;
-    align-content: center;
+    justify-content: left;
 }
 .current_events {
     text-align: center;
     padding: 10px;
+    background-color: #F2F0DE;
 }
 .event_images {
     display: flex;

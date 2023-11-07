@@ -1,0 +1,33 @@
+{
+    "lastName": "Lott",
+    "dateMovedIn": "2023-10-07",
+    "numberOfPeopleInFamily": 5,
+    "visitedByBishopric": false,
+    "familyMembers": [
+        {
+            "name": "Bill",
+            "gender": "Male",
+            "birthdate": "2020-09-01"
+        },
+        {
+            "name": "Billy",
+            "gender": "Male",
+            "birthdate": "2020-09-07"
+        },
+        {
+            "name": "georgia",
+            "gender": "Female",
+            "birthdate": "2020-09-07"
+        },
+        {
+            "name": "Jill",
+            "gender": "Female",
+            "birthdate": "2020-09-07"
+        },
+        {
+            "name": "Beht",
+            "gender": "Female",
+            "birthdate": "2020-09-07"
+        }
+    ]
+}
