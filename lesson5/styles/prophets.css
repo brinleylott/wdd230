@@ -1,0 +1,13 @@
+section {
+    background-color: rgb(216, 195, 236);
+    max-width: 330px;
+    padding: 20px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    color: rgb(34, 8, 58);
+    text-align: center;
+}
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
