@@ -30,7 +30,7 @@
             <div class="hero-text">
               <h1>Welcome to Clovis Chamber of Commerce!</h1>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas praesentium aut deserunt architecto minus. Veritatis asperiores architecto officiis omnis sed voluptas voluptatem possimus, eligendi sit vitae, expedita, ducimus voluptate autem.</p>
-              <button>Sign Up</button>
+              <a class="sign_up" href="#">Sign Up</a>
             </div>
         </div>
 
@@ -54,13 +54,20 @@
 
         <section class="shout-out">
             <h2 class="our-sponsors">Our Sponsors</h2>
-            <section class="company-card">
-                <img class="sponsor-img" src="images/store.jpg" alt="Georges Apperal">
-                <h3 class="george">George's Apperal</h3>
-            </section>
+            <div class="sponsors">
+               <section class="kids_club">
+                <img src="images/kids_club.webp" alt="Kids Club at Barnes and Noble" loading="lazy" width="300" height="250">
+                <h3>Join Barnes and Nobles Kids Club!</h3>
+              </section>
+              <section class="balloons">
+                <img src="images/hot_air_balloons.webp" alt="Hot air balloons" loading="lazy" width="300" height="250">
+                <h3>Annual Balloon Festival</h3>
+              </section> 
+            </div>
+            
         </section>
-
-        <section class="weather">
+        <div class="weather_div">
+           <div class="weather">
             <h3>Weather</h3>
             <section>
                 <menu class="list-info">
@@ -69,7 +76,9 @@
                     <li><a href="#">Warm</a></li>
                 </menu>
             </section>
-        </section>        
+        </div>  
+        </div>
+               
     </main>
     <footer></footer>
     <script src="scripts/events.js"></script>

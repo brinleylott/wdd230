@@ -6,7 +6,10 @@ header h2{
     color: #F2F0DE;
     text-align: center;
 }
+main {
+    background-color: #F2F0DE;
 
+}
 /* nav */
 nav{
     background-color: #D0E3FF;
@@ -61,7 +64,13 @@ body {
     color: #081F5C;
     text-align: center;
 }
-
+.sign_up {
+    background-color: #081F5C;
+    color: #F2F0DE;
+    text-decoration: none;
+    padding:10px;
+    border-radius: 50px;
+}
 
 
 
@@ -95,14 +104,9 @@ body {
      padding-top: 20px;
      padding-bottom: 20px;
 }
-.sponsor-img {
-    max-width: 75%;
-    padding: 10px;
-    background-color: #081F5C;
-}
-.george {
-    margin-top: 0;
-    margin-bottom: 20px;
+.sponsors {
+    display: flex;
+    justify-content: center;
 }
 
 /* weather */
@@ -110,6 +114,8 @@ body {
     border: solid 2px #081F5C;
     margin: 10px;
     text-align: center;
+    width: 30%;
+    align-items: center;
 }
 .weather h3 {
     background-color: #081F5C;
@@ -120,7 +126,10 @@ body {
 .list-info {
     margin-right: 10%;
 }
-
+.weather_div {
+    display: block;
+    justify-content: center;
+}
 /* Footer */
 footer {
     padding-top: 20px;
