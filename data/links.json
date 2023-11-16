@@ -1,0 +1,13 @@
+{
+    "lessons": "Lesson 1",
+    "links": [
+        {
+            "url": "https://brinleylott.github.io/wdd230/lesson1/chamber-site-plan.html",
+            "title": "Chamber"
+        },
+        {
+            "url": "https://brinleylott.github.io/wdd230/lesson1/holygrail.html",
+            "title": "Holey Grail"
+        }
+    ]
+}
