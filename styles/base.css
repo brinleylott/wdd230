@@ -134,7 +134,15 @@ footer{
     margin: 10px;
     margin-bottom: 0;
 }
-
+#information {
+    width: 30%;
+}
+#info-activities{
+    display: flex;
+}
+#info-map {
+    display: flex;
+}
 /* Hamburger menu */
 #menu {
     display: block;
