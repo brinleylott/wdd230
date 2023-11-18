@@ -3,11 +3,75 @@
     "links": [
         {
             "url": "https://brinleylott.github.io/wdd230/lesson1/chamber-site-plan.html",
-            "title": "Chamber"
+            "title": "Chamber Site Plan"
         },
         {
             "url": "https://brinleylott.github.io/wdd230/lesson1/holygrail.html",
             "title": "Holey Grail"
+        },
+        {
+            "url": "https://brinleylott.github.io/wdd230/lesson1/media_query.html",
+            "title":"Media Query"
+        }
+    ],
+    "lessons": "Lesson 2",
+    "links": [
+        {
+            "url": "https://brinleylott.github.io/wdd230/lesson2/bom.html",
+            "title": "DOM Manipulation"
+        },
+        {
+            "url": "https://brinleylott.github.io/wdd230/lesson2/design.html",
+            "title": "Design Principles"
+        },
+        {
+            "url": "https://brinleylott.github.io/wdd230/lesson2/hamburger.html",
+            "title": "Responsive Hamburger Menu"
+        }
+    ],
+    "lessons": "Lesson 3",
+    "links": [
+        {
+            "url": "lesson3/optimized.html",
+            "title": "Optomized Image"
+        },
+        {
+            "url": "lesson3/lazyLoad.html",
+            "title": "Lazy Loading"
+        },
+        {
+            "url": "lesson3/localStorage.html",
+            "title": "Local Storage"
+        },
+        {
+            "url": "lesson3/responsive_images.html",
+            "title": "Responsive Images"
+        }
+    ],
+    "lessons": "Lesson 4",
+    "links": [
+        {
+            "url": "https://codepen.io/BrinleyL/pen/QWYwYxX",
+            "title": "Pseudo Classes CodePen"
+        },
+        {
+            "url": "./lesson4/images/screenshot.png",
+            "title": "CSS Combinators"
+        }
+    ],
+    "lessons": "Lesson 5",
+    "links": [
+        {
+            "url": "https://codepen.io/BrinleyL/pen/JjxJKrO",
+            "title": "CSS Pseudo Classes"
+        },
+        {
+            "url": "lesson5/new-ward-members.json",
+            "title": "json"
+        },
+        {
+            "url": "lesson5/prophets.html",
+            "title": "lesson5/prophets.html"
         }
     ]
 }
