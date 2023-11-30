@@ -1,5 +1,6 @@
-[
-    {
+{
+    "lesssons": [
+         {
         "lesson": "Lesson 1",
         "links": [
             {
@@ -17,7 +18,7 @@
         ]
     },
     {
-        "lesson2": "Lesson 2",
+        "lesson": "Lesson 2",
         "links": [
             {
                 "url": "https://brinleylott.github.io/wdd230/lesson2/bom.html",
@@ -34,7 +35,7 @@
         ]
     },
     {
-        "lesson3": "Lesson 3",
+        "lesson": "Lesson 3",
         "links": [
             {
                 "url": "lesson3/optimized.html",
@@ -55,7 +56,7 @@
         ]
     },
     {
-        "lesson4": "Lesson 4",
+        "lesson": "Lesson 4",
         "links": [
             {
                 "url": "https://codepen.io/BrinleyL/pen/QWYwYxX",
@@ -68,7 +69,7 @@
         ]
     },
     {
-        "lesson5": "Lesson 5",
+        "lesson": "Lesson 5",
         "links": [
             {
                 "url": "https://codepen.io/BrinleyL/pen/JjxJKrO",
@@ -84,4 +85,9 @@
             }
         ]
     }
-]
+
+
+    ]
+
+   
+}
