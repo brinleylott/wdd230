@@ -15,88 +15,74 @@
     "membershipLevel": "Gold"
   },
   {
-    "name": "IDWEB",
+    "name": "Flash Tech Services",
     "address": {
-      "street1": "2115 S Vista Ave",
+      "street1": "2115 S Neese Ave",
       "street2": "",
-      "city": "boise",
-      "state": "Idaho",
-      "zip": "83705"
+      "city": "Clovis",
+      "state": "California",
+      "zip": "93612"
     },
-    "phone": "209-324-8765",
-    "url": "https://www.idweb.it/en/",
-    "imageUrl": "https://www.idweb.it/en/wp-content/uploads/sites/4/2020/01/logo-IdSurvey-cati-cawi-capi-research-software.png",
+    "phone": "559-488-5810",
+    "url": "https://staridaho-gzcms.preview.gochambermaster.com/list/member/flash-tech-services-217/",
+    "imageUrl": "https://chambermaster.blob.core.windows.net/images/customers/3601/members/217/logos/MEMBER_PAGE_HEADER/Flash_Tech_Logo_Updated.png",
+    "membershipLevel": "Silver"
+  },
+  {
+    "name": "Crumbl Cookies",
+    "address": {
+      "street1": "1850 Herndon Ave",
+      "street2": "",
+      "city": "Clovis",
+      "state": "California",
+      "zip": "93611"
+    },
+    "phone": "559-345-5304",
+    "url": "https://crumblcookies.com/clovis",
+    "imageUrl": "https://crumblcookies.com/_next/static/media/crumbl_logo.d4b6dfeb.svg",
+    "membershipLevel": "Bronze"
+  },
+  {
+    "name": "Barnes & Noble",
+    "address": {
+      "street1": "7849 North Blackstone Avenue",
+      "street2": "",
+      "city": "Fresno",
+      "state": "California",
+      "zip": "93720"
+    },
+    "phone": "559-554-8725",
+    "url": "https://stores.barnesandnoble.com/store/2112",
+    "imageUrl": "data:image/png;base64,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",
+    "membershipLevel": "Gold"
+  },
+  {
+    "name": "Butterfish",
+    "address": {
+      "street1": "1850 Herndon Ave unit 106",
+      "street2": "",
+      "city": "Clovis",
+      "state": "Californis",
+      "zip": "93611"
+    },
+    "phone": "559-797-4269",
+    "url": "https://butterfishpoke.com/",
+    "imageUrl": "https://butterfishpoke.com/wp-content/uploads/2016/09/ButterfishMobileLogoRetina_426x166.png",
     "membershipLevel": "Gold"
   },
   {
     "name": "IDWEB",
     "address": {
-      "street1": "2115 S Vista Ave",
+      "street1": "Clovis Crossing, Shopping Ctr",
       "street2": "",
-      "city": "boise",
-      "state": "Idaho",
-      "zip": "83705"
+      "city": "Clovis",
+      "state": "California",
+      "zip": "93611"
     },
-    "phone": "209-324-8765",
-    "url": "https://www.idweb.it/en/",
-    "imageUrl": "https://www.idweb.it/en/wp-content/uploads/sites/4/2020/01/logo-IdSurvey-cati-cawi-capi-research-software.png",
-    "membershipLevel": "Gold"
-  },
-  {
-    "name": "IDWEB",
-    "address": {
-      "street1": "2115 S Vista Ave",
-      "street2": "",
-      "city": "boise",
-      "state": "Idaho",
-      "zip": "83705"
-    },
-    "phone": "209-324-8765",
-    "url": "https://www.idweb.it/en/",
-    "imageUrl": "https://www.idweb.it/en/wp-content/uploads/sites/4/2020/01/logo-IdSurvey-cati-cawi-capi-research-software.png",
-    "membershipLevel": "Gold"
-  },
-  {
-    "name": "IDWEB",
-    "address": {
-      "street1": "2115 S Vista Ave",
-      "street2": "",
-      "city": "boise",
-      "state": "Idaho",
-      "zip": "83705"
-    },
-    "phone": "209-324-8765",
-    "url": "https://www.idweb.it/en/",
-    "imageUrl": "https://www.idweb.it/en/wp-content/uploads/sites/4/2020/01/logo-IdSurvey-cati-cawi-capi-research-software.png",
-    "membershipLevel": "Gold"
-  },
-  {
-    "name": "IDWEB",
-    "address": {
-      "street1": "2115 S Vista Ave",
-      "street2": "",
-      "city": "boise",
-      "state": "Idaho",
-      "zip": "83705"
-    },
-    "phone": "209-324-8765",
-    "url": "https://www.idweb.it/en/",
-    "imageUrl": "https://www.idweb.it/en/wp-content/uploads/sites/4/2020/01/logo-IdSurvey-cati-cawi-capi-research-software.png",
-    "membershipLevel": "Gold"
-  },
-  {
-    "name": "IDWEB",
-    "address": {
-      "street1": "2115 S Vista Ave",
-      "street2": "",
-      "city": "boise",
-      "state": "Idaho",
-      "zip": "83705"
-    },
-    "phone": "209-324-8765",
-    "url": "https://www.idweb.it/en/",
-    "imageUrl": "https://www.idweb.it/en/wp-content/uploads/sites/4/2020/01/logo-IdSurvey-cati-cawi-capi-research-software.png",
-    "membershipLevel": "Gold"
+    "phone": "559-323-4857",
+    "url": "https://locations.maurices.com/us/ca/clovis/clovis-crossing-shopping-ctr",
+    "imageUrl": "https://locations.maurices.com/permanent-b0b701/assets/images/logo.87ebdecf.svg",
+    "membershipLevel": "Silver"
   }
 ]
 
