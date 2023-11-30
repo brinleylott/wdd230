@@ -63,7 +63,7 @@ async function getLinks() {
 function displayLinks(lessons) {
   lessons.forEach((lessonItem) => {
     const lesson = document.createElement('p');
-    lesson.textContent = `${lessonItem.lesson}`;
+    lesson.textContent = `${lessonItem.lesson}: `;
     const lessonLinks = lessonItem.links;
 
     lessonLinks.forEach((lessonLink, index) => {
