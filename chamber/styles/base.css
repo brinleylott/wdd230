@@ -284,3 +284,53 @@ input {
     border-radius: 15px;
 }
 
+/* Directory Page */
+
+#memberCard {
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.274);
+    background-color:#F2F0DE;
+    padding: 30px;
+    width: 25%;
+}
+
+
+
+#card_section {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+}
+
+.grid #memberCard {
+	text-align: center;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list #memberCard {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.list #memberCards > * {
+	margin: 0 1rem;
+}

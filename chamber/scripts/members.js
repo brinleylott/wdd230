@@ -24,6 +24,7 @@ function displayMembers(members) {
 
     members.forEach(member => {
         const card = document.createElement('section');
+        card.id = 'memberCard';
        
         let image = document.createElement('img');
         const fullName = document.createElement('h2');
@@ -43,8 +44,8 @@ function displayMembers(members) {
         image.setAttribute('src', member.imageUrl);
         image.setAttribute('alt', 'company logo');
         image.setAttribute('loading', 'lazy');
-        image.setAttribute('width', '120');
-        image.setAttribute('height', '70');
+        image.setAttribute('width', '55%');
+        // image.setAttribute('height', '50');
         
         card.appendChild(image);
         card.appendChild(fullName);
@@ -59,4 +60,26 @@ function displayMembers(members) {
 
 // Call the functions
 getMembers().then(members => displayMembers(members));
+
+
+// Grid and List Button
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("article");
+
+// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
+
 
