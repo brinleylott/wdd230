@@ -309,7 +309,7 @@ input {
     justify-content: center;
 }
 
-.grid {
+/* .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	grid-gap: 5px;
@@ -333,4 +333,4 @@ input {
 
 .list #memberCards > * {
 	margin: 0 1rem;
-}
+} */

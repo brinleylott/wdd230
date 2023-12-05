@@ -14,7 +14,7 @@ if (!lastVisit) {
     let message = `You last visited ${daysDiff} ${
       daysDiff === 1 ? "day" : "days"
     } ago.`;
-    document.getElementById("sidebar").innerText = message;
+    document.getElementById("welcome").innerText = message;
   }
 }
 localStorage.setItem("lastVisit", currentDate);
