@@ -286,7 +286,7 @@ input {
 
 /* Directory Page */
 
-#memberCard {
+.grid #memberCard {
     text-align: center;
     box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.274);
     background-color:#F2F0DE;
@@ -296,13 +296,13 @@ input {
 
 
 
-#card_section {
+.grid #card_section {
     display: flex;
     justify-content: space-around;
     padding: 30px;
 }
 
-#cards {
+.grid #cards {
     display: flex;
     flex-wrap: wrap; 
     gap: 20px; 
@@ -318,19 +318,28 @@ input {
 
 .grid #memberCard {
 	text-align: center;
-}
+} */
 .list {
 	display: flex;
 	flex-direction: column;
 }
 
 .list #memberCard {
-	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
-	margin: 0;
+    display: grid;
+	grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    margin: 0;
 	padding: 0.25rem;
 }
 
-.list #memberCards > * {
-	margin: 0 1rem;
-} */
+.list #cards img{
+    display: none;
+}
+
+
+.list #cards p {
+    padding: 5px;
+}
+
+.list #memberCard:nth-child(even) {
+	background-color: #D0E3FF;
+}
