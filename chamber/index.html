@@ -34,23 +34,57 @@
             </div>
         </div>
 
-        
+        <h2 class="events_title">Current Events</h2>
         <section class="current_events">
-            <h2 class="events_title">Current Events</h2>
+            <section class="events_button">
+                <button class="w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <!-- <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button> -->
+            </section>
             <section class="event_images">
-                <img class="mySlides" src="images/golf.jpg">
-                <img class="mySlides" src="images/seminar.jpg">
-                <img class="mySlides" src="images/opening_social.webp">
+                <div class="slide-container">
+                    <img class="mySlides" src="images/golf.jpg">
+                    <div class="slide-description">Golf competition for kids with cancer.</div>
+                </div>
+                <div class="slide-container">
+                    <img class="mySlides" src="images/seminar.jpg">
+                    <div class="slide-description">Informative seminar for all ages.</div>
+                </div>
+                <div class="slide-container">
+                    <img class="mySlides" src="images/opening_social.webp">
+                    <div class="slide-description">Opening social event for community bonding.</div>
+                </div>
             </section>
             <section class="events_button">
-                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-            </section>
-            <section class="ticket_button">
-                <button class="tickets">Get Tickets Now</button>
+                <!-- <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button> -->
+                <button class="w3-display-right" onclick="plusDivs(1)">&#10095;</button>
             </section>
         </section>
-
+        <div class="forecastCurrent">
+            <div id="weather" class="weather">
+            <div class="list-info">
+                <h3>Current Weather</h3>
+              <span id="current-temp"></span>
+              <figure>
+                <img id="weather-icon" src="#" alt="weather icon" />
+                <figcaption></figcaption>
+              </figure>
+            </div>
+        </div>  
+        <div class="forecastContainer">
+            <h3>Three Day Forecast</h3>
+            <div id="forecast">         
+                <span id="dateTime"></span>
+                <figure>
+                    <img id="forecastIcon" src="#" alt="">
+                <figcaption></figcaption>
+                <div id="high"></div>
+                <div id="low"></div>                
+                </figure>
+            </div> 
+        </div>
+       
+        </div>
+       
 
         <section class="shout-out">
             <h2 class="our-sponsors">Our Sponsors</h2>
@@ -78,15 +112,8 @@
             </section>
         </div>  
         </div> -->
-        <div id="weather">
-            <div class="list-info">
-              <span id="current-temp"></span>
-              <figure>
-                <img id="weather-icon" src="#" alt="weather icon" />
-                <figcaption></figcaption>
-              </figure>
-            </div>
-               
+        
+
     </main>
     <footer></footer>
     <script src="scripts/events.js"></script>
