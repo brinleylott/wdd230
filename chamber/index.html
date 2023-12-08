@@ -26,6 +26,12 @@
         </ul>
     </nav>
     <main>
+        <div id="banner-container">
+            <div class="banner">
+                <span class="close" onclick="closeBanner()">×</span>
+                <p>Chamber of Commerce Meet and Greet is happening Wednedsay night at 7:00pm! Join us if you like good company and delicious deserts!</p> 
+            </div>
+        </div>
         <div class="hero">
             <div class="hero-text">
               <h1>Welcome to Clovis Chamber of Commerce!</h1>
@@ -43,7 +49,7 @@
             <section class="event_images">
                 <div class="slide-container">
                     <img class="mySlides" src="images/golf.jpg">
-                    <div class="slide-description">Golf competition for kids with cancer.</div>
+                    <div class="slide-description">Golf fundraiser for kids with cancer.</div>
                 </div>
                 <div class="slide-container">
                     <img class="mySlides" src="images/seminar.jpg">
@@ -59,10 +65,11 @@
                 <button class="w3-display-right" onclick="plusDivs(1)">&#10095;</button>
             </section>
         </section>
+
         <div class="forecastCurrent">
             <div id="weather" class="weather">
             <div class="list-info">
-                <h3>Current Weather</h3>
+                <!-- <h3>Weather</h3> -->
               <span id="current-temp"></span>
               <figure>
                 <img id="weather-icon" src="#" alt="weather icon" />
@@ -71,7 +78,7 @@
             </div>
         </div>  
         <div class="forecastContainer">
-            <h3>Three Day Forecast</h3>
+            <!-- <h3>Three Day Forecast</h3> -->
             <div id="forecast">         
                 <span id="dateTime"></span>
                 <figure>
@@ -123,5 +130,6 @@
     <script src="scripts/events.js"></script>
     <script src="scripts/weather.js"></script>
     <script type="module" src="scripts/spotlight.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 </html>

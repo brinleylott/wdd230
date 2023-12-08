@@ -31,7 +31,8 @@ async function apiFetch() {
 apiFetch();
 
 function displayResults(data) {
-  currentTemp.innerHTML = `${data.main.temp}&deg;F`;
+  const rounded_temp = Math.round(data.main.temp)
+  currentTemp.innerHTML = `${rounded_temp}&deg;F`;
   const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
   let desc = data.weather[0].main;
   weatherIcon.setAttribute('src', iconsrc);
@@ -59,40 +60,6 @@ function showForecast(forecastList) {
     return daysDifference >= 0 && daysDifference < 3;
   });
 
-//   // Assuming you want to display all the forecast entries for the next 3 days
-//   next3DaysForecast.forEach((forecast, index) => {
-//     const forecastDate = new Date(forecast.dt_txt).toLocaleDateString();
-
-    
-//     // Check if an entry for this day has already been added
-//     if (!uniqueEntries[forecastDate]) {
-//       const forecastTempMax = forecast.main.temp_max;
-//       const forecastTempMin = forecast.main.temp_min;
-//       const srcIcon = `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
-//       const description = forecast.weather[0].description;
-
-//       // Create forecast elements
-//       const forecastItem = document.createElement('div');
-//       forecastItem.classList.add('forecast-item');
-//       forecastItem.innerHTML = `
-//         <p class="forecast-date">${forecastDate}</p>
-//         <img class="forecast-icon" src="${srcIcon}" alt="${description}">
-//         <p class="forecast-desc">${description}</p>
-//         <p class="forecast-tempH">${forecastTempMax}&deg;F - ${forecastTempMin}&deg;F</p>       
-        
-//       `;
-
-//       // Append forecast item to the container
-//       forecastContainer.appendChild(forecastItem);
-      
-//       // Mark this day as processed
-//       uniqueEntries[forecastDate] = true;
-//     }
-//   });
-// }
-// ...
-
-// ...
 
 next3DaysForecast.forEach((forecast, index) => {
   const forecastDate = new Date(forecast.dt_txt);
@@ -109,8 +76,10 @@ next3DaysForecast.forEach((forecast, index) => {
 
   // Check if an entry for this day has already been added
   if (!uniqueEntries[formattedDate]) {
-    const forecastTempMax = forecast.main.temp_max;
-    const forecastTempMin = forecast.main.temp_min;
+    const roundMax = Math.round(forecast.main.temp_max);
+    const roundMin = Math.round(forecast.main.temp_min);
+    // const forecastTempMax = forecast.main.temp_max;
+    // const forecastTempMin = forecast.main.temp_min;
     const srcIcon = `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
     const description = forecast.weather[0].description;
 
@@ -121,7 +90,7 @@ next3DaysForecast.forEach((forecast, index) => {
       <p class="forecast-date">${weekday}<br>${dayAndMonth}</p>
       <img class="forecast-icon" src="${srcIcon}" alt="${description}">
       <p class="forecast-desc">${description}</p>
-      <p class="forecast-tempH">${forecastTempMax}&deg;F - ${forecastTempMin}&deg;F</p>
+      <p class="forecast-tempH">${roundMax}&deg;F - ${roundMin}&deg;F</p>
     `;
 
     // Append forecast item to the container

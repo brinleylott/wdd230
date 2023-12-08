@@ -68,3 +68,5 @@ function displaySpotlightMember(member) {
 
 // Call the function
 getSpotlightMember();
+
+

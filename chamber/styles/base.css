@@ -40,6 +40,19 @@ ul {
     background-color: #F2F0DE;
 } */
 
+/* Banner */
+.banner p {
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.close{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
 /* Hero */
 body {
     margin: 0;
@@ -121,20 +134,15 @@ body {
 }
 
 /* weather */
-.forecastCurrent {
-    display: flex;
-    justify-content: space-evenly;
-}
+
 .weather {
-    border: solid 2px #081F5C;
+
     margin: 10px;
     text-align: center;
     width: 30%;
     align-items: center;
 }
 .weather h3 {
-    background-color: #081F5C;
-    color: #F2F0DE;
     margin: 0;
     padding: 5px;
 }
@@ -144,29 +152,17 @@ body {
 }
 .forecast-item{
     padding: 20px;
-    /* display: grid; */
-    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
-    /* flex-direction: column; */
 }
-/* .forecast-tempH {
-    grid-row: 2/3;
-}
-.forecast-temp {
-    grid-row: 2/3;
-} */
+
 .forecast-item p {
     font-size: 18px;
 }
 .forecastContainer {
-    border: solid 2px #081F5C;
     margin: 10px;
     text-align: center;
-    /* width: 30%; */
     align-items: center;
 }
 .forecastContainer h3 {
-    background-color: #081F5C;
-    color: #F2F0DE;
     margin: 0;
     padding: 5px;
 }
