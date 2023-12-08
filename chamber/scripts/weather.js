@@ -72,7 +72,7 @@ next3DaysForecast.forEach((forecast, index) => {
   });
 
   // Split the formatted date into two lines
-  const [weekday, dayAndMonth] = formattedDate.split(' ');
+  // const [weekday] = formattedDate.split(' ');
 
   // Check if an entry for this day has already been added
   if (!uniqueEntries[formattedDate]) {
@@ -87,7 +87,7 @@ next3DaysForecast.forEach((forecast, index) => {
     const forecastItem = document.createElement('div');
     forecastItem.classList.add('forecast-item');
     forecastItem.innerHTML = `
-      <p class="forecast-date">${weekday}<br>${dayAndMonth}</p>
+      <p class="forecast-date">${formattedDate}</p>
       <img class="forecast-icon" src="${srcIcon}" alt="${description}">
       <p class="forecast-desc">${description}</p>
       <p class="forecast-tempH">${roundMax}&deg;F - ${roundMin}&deg;F</p>
