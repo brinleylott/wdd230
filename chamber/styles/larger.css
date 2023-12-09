@@ -82,4 +82,70 @@
   .ben1 .ben2{
     display: block;
   }
+
+  /* Directory Page */
+
+.grid #memberCard {
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.274);
+  background-color:#F2F0DE;
+  padding: 30px;
+  width: 25%;
+}
+#cards img {
+  width: 188px;
+}
+#cards h2 {
+  margin: 0;
+  /* text-align: left; */
+}
+
+.grid #card_section {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.grid #cards {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: center;
+}
+
+/* .grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+grid-gap: 5px;
+align-items: center;
+}
+
+.grid #memberCard {
+text-align: center;
+} */
+.list {
+display: flex;
+flex-direction: column;
+}
+
+.list #memberCard {
+  display: grid;
+grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  margin: 0;
+padding: 0.25rem;
+}
+
+.list #cards img{
+  display: none;
+}
+
+
+.list #cards p {
+  padding: 5px;
+}
+
+.list #memberCard:nth-child(even) {
+background-color: #D0E3FF;
+}
+
 }

@@ -35,7 +35,7 @@ function displaySpotlightMember(member) {
     }
 
     const card = document.createElement('section');
-    card.id = 'memberCard';
+    card.id = 'spotlightCard';
 
     let image = document.createElement('img');
     const fullName = document.createElement('h2');
