@@ -186,7 +186,7 @@ body {
 figure {
     justify-self: right;
 }
-figcaption {
+#caption {
     grid-column: 1/3;
     font-size: 25px;
     font-kerning: 20px;
